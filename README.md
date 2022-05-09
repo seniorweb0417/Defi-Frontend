@@ -51,8 +51,3 @@ This application doesn't use redux for state management, therefore all data are 
 page loads. For the farm related pages (pool, farms, balancers) the data is fetched in the page and
 are passed down using reducers and context, this is to make action side-effects easier to do. All 3 farm related pages
 all share the same component "PoolCard" and all use the same queries and methods. So becareful of changes made in that file.
-
-### P.S
-
-You're smarter, if you have any suggestions about how to make it better please don't hestitate to
-tear it all down and make it better. <3.
